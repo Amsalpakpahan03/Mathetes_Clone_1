@@ -26,11 +26,13 @@ const Navbar = () => {
       <div className="  container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img
+          {/* <img
             src="/public/imageslogo.png"
             alt="Mathetes Christian School Logo"
             className="h-16 w-16 mr-4"
-          />
+          /> */}
+          <img src="/images/logo.png" alt="Mathetes Christian School Logo" className="h-16 w-16 mr-4" />
+
           <div>
             <span className="font-bold text-xl tracking-wider block">
               MATHETES
